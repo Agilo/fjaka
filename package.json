@@ -27,5 +27,8 @@
   },
   "optionalDependencies": {
     "jquery": "^1.7.0 || ^2.0.0 || ^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
