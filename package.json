@@ -1,6 +1,6 @@
 {
   "name": "fjaka",
-  "version": "3.0.0-2",
+  "version": "3.0.0-next.0",
   "description": "Fjaka is a SASS based frontend framework for building extensive, scalable, responsive and mobile-first web projects with solid architectural baseline.",
   "type": "module",
   "exports": {
