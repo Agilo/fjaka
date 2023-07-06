@@ -1,0 +1,16 @@
+/* =============================================================================
+   ALL (settings/_all.scss)
+   ========================================================================== */
+
+/**
+ * Import all settings partials to one place for easier projects maintenance.
+ */
+
+@import 'breakpoints';
+@import 'buttons';
+@import 'colors';
+@import 'grid';
+@import 'hamburger-icon';
+@import 'offcanvas';
+@import 'spacing';
+@import 'typography';

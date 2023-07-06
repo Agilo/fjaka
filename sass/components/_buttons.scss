@@ -1,0 +1,64 @@
+/* =============================================================================
+   BUTTONS (components/_buttons.scss)
+   ========================================================================== */
+
+.c-button {
+	display: inline-block;
+	color: currentcolor;
+	text-align: center;
+	cursor: pointer;
+	padding: $buttons-padding-y $buttons-padding-x;
+}
+
+
+
+/* Variants
+   ========================================================================== */
+
+/**
+ * Variation with primary background color.
+ */
+
+.c-button--primary {
+	background-color: color( primary );
+	transition: background-color $buttons-transition-speed;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: color-darken( primary );
+	}
+}
+
+/**
+ * Variation with secondary background color.
+ */
+
+.c-button--secondary {
+	background-color: color( secondary );
+	transition: background-color $buttons-transition-speed;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: color-darken( secondary );
+	}
+}
+
+/**
+ * Full width variation.
+ */
+
+.c-button--full {
+	display: block;
+	width: 100%;
+}
+
+/**
+ * Styles that apply on `disabled` buttons.
+ */
+
+.c-button[ disabled ],
+.c-button--disabled {
+	cursor: auto;
+}

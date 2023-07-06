@@ -1,0 +1,15 @@
+/* =============================================================================
+   SPACING (settings/_spacing.scss)
+   ========================================================================== */
+
+/**
+ * Control the default spacing of most elements by modifying these variables.
+ * You can add more entries to the $spacers map, should you need more variation.
+ */
+
+$spacer-base: 1.25rem !default;
+
+$spacers: (
+	'0': 0,
+	'1': .625rem,
+) !default;

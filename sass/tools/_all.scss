@@ -1,0 +1,14 @@
+/* =============================================================================
+   ALL (tools/_all.scss)
+   ========================================================================== */
+
+/**
+ * Import all tools partials to one place for easier projects maintenance.
+ */
+
+@import 'breakpoints';
+@import 'colors';
+@import 'defaults';
+@import 'grid';
+@import 'typography';
+@import 'wordpress';

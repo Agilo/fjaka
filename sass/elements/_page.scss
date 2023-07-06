@@ -1,0 +1,18 @@
+/* =============================================================================
+   PAGE (elements/_page.scss)
+   ========================================================================== */
+
+html {
+	@include typography-defaults;
+	@include page-defaults;
+}
+
+/**
+ * IE10+ doesn't honor `<meta name="viewport">` in some cases.
+ */
+
+@at-root {
+	@-ms-viewport {
+		width: device-width;
+	}
+}

@@ -1,0 +1,19 @@
+/* =============================================================================
+   BOX-SIZING (generic/_box-sizing.scss)
+   ========================================================================== */
+
+/*
+ * Better default `box-sizing`.
+ */
+
+html {
+	@include box-sizing;
+}
+
+* {
+	&,
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
+}

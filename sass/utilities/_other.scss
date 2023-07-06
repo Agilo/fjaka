@@ -1,0 +1,20 @@
+/* =============================================================================
+   OTHER (utilities/_other.scss)
+   ========================================================================== */
+
+/* stylelint-disable declaration-no-important */
+
+/* SVG
+   ========================================================================== */
+
+/**
+ * Utilities for styling SVG elements.
+ */
+
+.u-fill-current {
+	fill: currentcolor !important;
+}
+
+.u-stroke-current {
+	stroke: currentcolor !important;
+}

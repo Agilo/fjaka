@@ -1,0 +1,11 @@
+/* =============================================================================
+   ALL (components/_all.scss)
+   ========================================================================== */
+
+/**
+ * Import all components partials to one place for easier projects maintenance.
+ */
+
+@import 'buttons';
+@import 'hamburger-icon';
+@import 'offcanvas';

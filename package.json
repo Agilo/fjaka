@@ -1,0 +1,31 @@
+{
+  "name": "fjaka",
+  "version": "2.5.0",
+  "description": "Fjaka is a SASS based frontend framework for building extensive, scalable, responsive and mobile-first web projects with solid architectural baseline.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "lint": "stylelint \"sass/**/*.scss\"",
+    "test:build": "sass --trace --style=expanded --embed-sources --embed-source-map sass/main.scss build/main.css",
+    "test": "npm run lint && npm run test:build && echo 'Test successful!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Agilo/fjaka.git"
+  },
+  "homepage": "https://github.com/Agilo/fjaka",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jquery": "^3.5.16",
+    "postcss": "^8.4.25",
+    "postcss-scss": "^4.0.6",
+    "sass": "^1.63.6",
+    "stylelint": "^15.10.1",
+    "stylelint-scss": "^5.0.1"
+  },
+  "peerDependencies": {
+    "jquery": "^1.7.0 || ^2.0.0 || ^3.0.0"
+  }
+}
