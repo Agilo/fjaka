@@ -1,7 +1,5 @@
 /* =============================================================================
-   OFFCANVAS (settings/_offcanvas.scss)
+   TRANSITIONS (settings/_transitions.scss)
    ========================================================================== */
 
-$offcanvas-background-color: color( white ) !default;
-$offcanvas-offset-top: 0 !default;
-$offcanvas-z-index: 998 !default;
+$transition-duration-base: .2s !default;

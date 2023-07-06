@@ -5,30 +5,30 @@
 /**
  * Output font-size value of $font-sizes map.
  *
- * `font-size()`:   Output base font-size (1rem).
- * `font-size(h1)`: Output h1 font-size.
- * `font-size(sm)`: Output small font-size.
+ * `font-size()`:     Output base font-size (1rem).
+ * `font-size( h1 )`: Output h1 font-size.
+ * `font-size( sm )`: Output small font-size.
  */
 
-@function font-size($size:null) {
-	@if ($size != null) {
-		@return map-get($font-sizes, $size);
+@function font-size( $size: null ) {
+	@if ( $size != null ) {
+		@return map-get( $font-sizes, $size );
 	} @else {
-		@return map-get($font-sizes, base);
+		@return map-get( $font-sizes, base );
 	}
 }
 
 /**
  * Output font-weight value of $font-weight map.
  *
- * `font-weight()`:     Output base font-weight (regular).
- * `font-weight(bold)`: Output bold font-weight.
+ * `font-weight()`:       Output base font-weight (regular).
+ * `font-weight( bold )`: Output bold font-weight.
  */
 
-@function font-weight($weight:null) {
-	@if ($weight != null) {
-		@return map-get($font-weights, $weight);
+@function font-weight( $weight: null ) {
+	@if ( $weight != null ) {
+		@return map-get( $font-weights, $weight );
 	} @else {
-		@return map-get($font-weights, regular);
+		@return map-get( $font-weights, regular );
 	}
 }

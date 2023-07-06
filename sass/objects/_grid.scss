@@ -2,8 +2,6 @@
    GRID (objects/_grid.scss)
    ========================================================================== */
 
-@use 'sass:math';
-
 /**
  * Flexbox based grid.
  */
@@ -14,10 +12,10 @@
 .o-container,
 .o-container-fluid {
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
 	padding-right: math.div( $grid-gutter, 2 );
 	padding-left: math.div( $grid-gutter, 2 );
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @include grid-container();

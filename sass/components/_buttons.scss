@@ -16,36 +16,6 @@
    ========================================================================== */
 
 /**
- * Variation with primary background color.
- */
-
-.c-button--primary {
-	background-color: color( primary );
-	transition: background-color $buttons-transition-speed;
-
-	&:hover,
-	&:focus,
-	&:active {
-		background-color: color-darken( primary );
-	}
-}
-
-/**
- * Variation with secondary background color.
- */
-
-.c-button--secondary {
-	background-color: color( secondary );
-	transition: background-color $buttons-transition-speed;
-
-	&:hover,
-	&:focus,
-	&:active {
-		background-color: color-darken( secondary );
-	}
-}
-
-/**
  * Full width variation.
  */
 
@@ -60,5 +30,5 @@
 
 .c-button[ disabled ],
 .c-button--disabled {
-	cursor: auto;
+	cursor: not-allowed;
 }

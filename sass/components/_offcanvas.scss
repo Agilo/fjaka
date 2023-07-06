@@ -14,9 +14,8 @@
 	opacity: 0;
 	visibility: hidden;
 	transform: translateY( -1rem );
-	transition: opacity .2s, visibility .2s, transform .3s;
+	transition: opacity $transition-duration-base, visibility $transition-duration-base, transform .3s;
 
-	/* Active state */
 	&.is-active {
 		opacity: 1;
 		visibility: visible;
